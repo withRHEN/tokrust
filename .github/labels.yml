@@ -1,0 +1,32 @@
+- name: "dependencies"
+  color: "276bd1"
+- name: "release"
+  color: "#382ACD"
+
+# Generic labels
+- name: bug
+  color: C90C5B
+  description: Something isn't working
+- name: documentation
+  color: 58E0CC
+  description: Improvements or additions to documentation
+- name: feature request
+  color: 75E058
+  description: New feature or request
+- name: good first issue
+  color: 26EA63
+  description: Good for newcomers
+- name: help wanted
+  color: 42F58A
+  description: Extra attention is needed
+- name: question
+  color: D5E058
+  description: Further information is requested
+- name: tests
+  color: 10CB8B
+  description: Issues related to tests
+
+# Utilities labels
+- name: utils
+  color: A93146
+  description: Issues related to other helper utilities
