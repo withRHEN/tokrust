@@ -1,11 +1,11 @@
 use std::{io, thread};
 use std::time::Duration;
 
-use tiktoklive::core::live_client::TikTokLiveClient;
-use tiktoklive::data::live_common::TikTokLiveSettings;
-use tiktoklive::generated::events::{TikTokLiveEvent};
+use tokrust::core::live_client::TikTokLiveClient;
+use tokrust::data::live_common::TikTokLiveSettings;
+use tokrust::generated::events::{TikTokLiveEvent};
 
-use tiktoklive::TikTokLive;
+use tokrust::TikTokLive;
 
 #[tokio::main]
 async fn main() {

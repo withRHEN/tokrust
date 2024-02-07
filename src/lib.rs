@@ -19,7 +19,7 @@ pub mod generated;
 /// # Entry point of library used to create new instance of TikTokLive client
 ///
 /// ```
-/// use tiktoklive::TikTokLive;
+/// use tokrust::TikTokLive;
 ///
 /// let client = TikTokLive::new_client("some-user");
 //         .configure(configure)
