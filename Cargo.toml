@@ -20,7 +20,7 @@ serde_json = "1.0.114"
 serde_derive = "1.0.196"
 tokio = { version = "1.37.0", features = ["full"] }
 tokio-tungstenite = { version = "0.21.0", features = ["native-tls"] }
-bytes = "1.5.0"
+bytes = "1.6.0"
 
 protobuf-codegen = "3.3.0"
 protoc-bin-vendored = "3.0.0"
